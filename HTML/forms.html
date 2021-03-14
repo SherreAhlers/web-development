@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Form Demo</h1>
+        <form action='' method='GET'>
+            <label for='username'>Enter a Username:</label>
+            <input type='text' placeholder='username' id='username'
+                name='username'>
+            <label for="password"></label>
+            <input type='password' placeholder='password' id='password'>
+            <input type='number' placeholder='phone'>
+            <input type='color'>
+            <input type='checkbox'>
+            <button>Submit</button>
+        </form> -->
+<!-- action is important on form. Specifies where to send the data in the form.
+    ex: action='/search/'    the form will take us to /search/resultofsearch     -->
+<!-- What goes inside a form: 
+        <input> *most important in form-
+        <input type=''   types: 'text', 'password', 'color' (color will give a color picker), 'number'
+        Name: in input will refer to value of input when data is sent to server  -- put name on every input you have.
+        Placeholder: tells us what input is for 
+        Labels: really important for making forms easier to use.
+        label id='' needs to match the input you are labeling's for=''  
+        Button: when have a button in form it will submit form when it is clicked... buttons outside of form will not do anything without JavaScript.  
+        Button can have a type:  type='button' (this says I want it to act like a button instead of a submit inside a form only.)
+        Radio buttons need a value=''  the value is what would be submitted to the server
+        Select should have name='' and and id=''  then inside select you will have <option will have a value='' which is what is sent to the server.-->
+<!-- <label for='pet-select'>Choose pet:</label>
+        <select name='pet-select' id='pet-select'>
+            <option value='dog'>Dog</option>
+            <option value='cat'>Cat</option>
+        </select> -->
+<!-- input type='range' will give a range for the user to select-->
+<!-- <input type="range" id='dog' min='1' max='10' step='5' value='5'
+            name='dog-size'> -->
+<!-- input <textarea> means the amount of area that the text can take up.-->
+<!-- <label for="story">Tell us your story:</label>
+        <textarea id='story' name='story' rows='5' cols='33'>It was a dark and
+            stormy night...</textarea> -->
+<!-- Form validations:
+           validations: 
+           required
+            minLength='5'
+            maxLength='10' -->
+<!-- </body>
+</html> -->
